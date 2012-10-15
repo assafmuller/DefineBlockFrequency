@@ -1,0 +1,12 @@
+/Debug
+/Release
+/ipch
+/Freq/Debug
+/Freq/Release
+/Freq.sdf
+/Freq.sln
+/Freq.suo
+/Freq/Freq.vcxproj
+/Freq/Freq.vcxproj.filters
+/Freq/Freq.vcxproj.user
+/Freq/main.cpp
