@@ -1,4 +1,4 @@
-#include <map>
+#include <unordered_map>
 #include <sstream>
 
 #include "Freq.h"
@@ -23,7 +23,7 @@ bool Freq::run(int target)
 
 bool __defineBlockFrequency__(int frequency, const char *file, int line)
 {
-	static std::map<std::string, Freq> freqs;
+	static std::unordered_map<std::string, Freq> freqs;
 
 	std::stringstream stream(file);
 	stream << " " << line;
